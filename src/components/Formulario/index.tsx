@@ -34,7 +34,7 @@ class Formulario extends React.Component<{
             onSubmit={this.adicionarTarefa.bind(this)}
             >
                 <div className={style.inputContainer}>
-                    <label htmlFor="tarefa">Adicione um novo estudo</label>
+                    <label htmlFor="tarefa">Adicione uma nova tarefa</label>
                     <input 
                     type="text" 
                     name="tarefa" 
